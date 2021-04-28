@@ -1,0 +1,70 @@
+@import "../../../assets/styles/variables.scss";
+
+.card {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: $red;
+}
+
+.header-image {
+  background-size: cover;
+}
+
+.mat-card-header {
+  background-color: $white;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.mat-card-subtitle {
+  text-transform: uppercase;
+  color: $black;
+}
+
+.mat-chip {
+  background-color: $black;
+}
+
+// Types
+.normal {
+  background-color: #A4ACAF;
+}
+.bug {
+  background-color: #729F3F;
+}
+.water {
+  background-color: #4592C4;
+}
+.psychic {
+  background-color: #F366B9;
+}
+.fighting {
+  background-color: #D56723;
+}
+.rock {
+  background-color: #A38C21;
+}
+.steal {
+  background-color: #9EB7B8;
+}
+.ground {
+  background-color: #624615;
+}
+.fairy {
+  background-color: #FBCCE7;
+}
+.electric {
+  background-color: #EED535;
+}
+.dagron {
+  background-color: #193D50;
+}
+.dark {
+  background-color: #020913;
+}
+.fire {
+  background-color: #B32123;
+}
+
+
