@@ -35,7 +35,7 @@ td, th {
 
 // odd: linhas impares
 .mat-row:nth-child(odd) {
-  background-color: red;
+  background-color: #B32123;
   // quando for impar muda cor da fonte
   & .mat-cell {
     color: white;
