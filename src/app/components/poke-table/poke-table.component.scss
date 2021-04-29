@@ -2,7 +2,6 @@
 
 .container {
   width: 100%;
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -10,15 +9,6 @@ table {
   min-width: 80%;
   margin: auto;
   text-align: center;
-  background-color: $white;
-}
-
-td, th {
-  width: 15%;
-}
-
-.mat-form-field{
-  padding: 25px;
 }
 
 .mat-header-cell {
@@ -35,21 +25,28 @@ td, th {
 
 // odd: linhas impares
 .mat-row:nth-child(odd) {
-  background-color: #B32123;
+  background-color: #b32123;
   // quando for impar muda cor da fonte
   & .mat-cell {
     color: white;
   }
 }
 
-// Coloca primeira letra Maiuscula
-.mat-cell:first-letter {
-  text-transform: uppercase;
+// Coloca primeira letra Maiuscula .mat-cell:first-letter {
+  .mat-cell:first-letter {
+    text-transform: uppercase;
 }
 
 .mat-row:hover {
   cursor: pointer;
   box-shadow: inset 0 0 0 5px $yellow;
+}
+
+.mat-form-field {
+  font-size: 15px;
+  width: 20%;
+  margin-bottom: 5px;
+  padding: 10px;
 }
 
 // Ajusta o tamanho do paginador para o tamanho da tabela
@@ -71,20 +68,6 @@ td, th {
   background-color: $white !important;
 }
 
-.mat-form.field {
-  font-size: 13px;
-  width: 20%;
-  margin-bottom: 5px;
-  padding: 10px;
-}
-
-mat-paginator {
-  background-color: $white;
-}
-
 input {
-  height: 45px;
-  margin-top: 10px;
   color: $white !important;
-  ;
 }

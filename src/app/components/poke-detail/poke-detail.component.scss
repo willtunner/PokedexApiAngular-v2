@@ -1,7 +1,7 @@
 @import "../../../assets/styles/variables.scss";
 
 .card {
-  width: 400px;
+  width: 300px;
   margin: auto;
   margin-top: 20px;
   background-color: $red;
@@ -17,8 +17,12 @@
   border-radius: 10px;
 }
 
-.mat-card-subtitle {
+.mat-card-title {
   text-transform: uppercase;
+  color: $black;
+}
+
+.mat-card-subtitle {
   color: $black;
 }
 
@@ -28,46 +32,44 @@
 
 // Types
 .normal {
-  background-color: #A4ACAF;
+  background-color: #a4acaf;
 }
 .bug {
-  background-color: #729F3F;
+  background-color: #729f3f;
 }
 .water {
-  background-color: #4592C4;
+  background-color: #4592c4;
 }
 .psychic {
-  background-color: #F366B9;
+  background-color: #f366b9;
 }
 .fighting {
-  background-color: #D56723;
+  background-color: #d56723;
 }
 .rock {
-  background-color: #A38C21;
+  background-color: #a38c21;
 }
 .steal {
-  background-color: #9EB7B8;
+  background-color: #9eb7b8;
 }
 .ground {
   background-color: #624615;
 }
 .fairy {
-  background-color: #FBCCE7;
+  background-color: #fbcce7;
 }
 .electric {
-  background-color: #EED535;
+  background-color: #eed535;
 }
 .dagron {
-  background-color: #193D50;
+  background-color: #193d50;
 }
 .dark {
   background-color: #020913;
 }
 .fire {
-  background-color: #B32123;
+  background-color: #b32123;
 }
 .grass {
-  background-color: #058B31;
+  background-color: #058b31;
 }
-
-
